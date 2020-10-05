@@ -1,0 +1,31 @@
+{
+  "name": "chantrybot",
+  "version": "0.0.1",
+  "description": "chantrybot",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./index.js",
+    "start": "cross-env IS_DEV=FALSE NODE_ENV=production node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohzd/chantrybot.git"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "vohzd",
+  "bugs": {
+    "url": "https://github.com/vohzd/chantrybot/issues"
+  },
+  "homepage": "https://github.com/vohzd/chantrybot#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "scrape-it": "^5.2.4",
+    "turndown": "^6.0.0"
+  }
+}

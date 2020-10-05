@@ -1,0 +1,9 @@
+node_modules
+
+npm-debug.log
+access.json
+
+keys/youtube-api.js
+
+data/converted/*
+data/downloaded/*
